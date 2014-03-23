@@ -1,0 +1,26 @@
+=== (the old) Taskwarrior.org Archives ===
+*2014-03-07 19:18:08*
+_site_
+`boards``archive`
+----
+Since taskwarrior.org made the big changeover from [[http://www.redmine.org/|Redmine]] to .. html, basically, a brave decision was made NOT to carry 7 years of baggage (a.k.a. obsolete docs). 
+
+A [[http://taskwarrior.org|fresh start]] was made, the issues migrated to a [[http://bug.tasktools.org|new system]], the docs are undergoing a major re-write, but sadly the discussion-boards were left behind. While they DID contain many ideas, contributions and concerns, to have "ported them over" to the new site would been a curating nightmare, and would have totally polluted the new site with an ungodly pile of last-years ideas. 
+
+As a major contributor to those boards, I'm aware (guilty) of some signal and a lot of noise. Because I use(d) the boards and a discussion-starter and back-burner, I assume other folks did too, and so taskextras.org is an opportunity to provide a (not very) handy service to my fellow taskwarriors, I'll try to keep these archives available online, right here.
+
+
+==== Forums ====
+- [[./projects/taskwarrior/boards/1%3fpage%3d1%26per_page%3d100|User Support and Tips]] - [[boards/1/topics/|files]]
+- [[boards/4/|Taskwarrior Website and Promotion]] - [[boards/4/topics/|files]]
+- [[boards/6/|Development and Feature Ideas]] - [[boards/6/topics/|files]]
+- [[boards/8/|Time Management and "the Competition"]] - [[boards/8/topics/|files]]
+- [[boards/27/|Miscelaneous]] - [[boards/27/topics/|files]]
+
+or Download: [[boards/boards.tar.gz|all taskwarrior.boards all zipped up in a 5.1MB file]]
+
+==== Wiki ====
+[[local:./projects/2/wiki.1|wiki index]]
+
+Be aware that they are in a raw state, may be incomplete, have unhelpful filenames and unadorned html, but it IS reference, and it may even be possible to have a DNS re-direct, so that the old links (still embedded in many feature-requests) land on the right file (instead of 404)
+

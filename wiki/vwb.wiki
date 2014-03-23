@@ -1,0 +1,14 @@
+%title vimwikiblog
+*2014-03-05 23:35:17*
+_site_
+`vwb`
+----
+%toc
+=== Vimwiki ===
+=== Vimwikiblog ===
+[[help|VimwikiBlog help document]]
+* test files
+[[test2]]
+[[test1]]
+[[todo]]
+

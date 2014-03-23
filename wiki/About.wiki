@@ -1,0 +1,17 @@
+%title About
+*2014-03-06 00:04:46*
+_site_
+`tag`
+----
+=== About Taskwarrior ===
+[[http://taskwarrior.org|Taskwarrior]] is an open-source cross platform command-line task management tool. It allows you to capture, annotate, manipulate and present your tasks, then sync them among devices. 
+
+=== About Taskextras.org ===
+Taskextras.org is an experimental site, run (badly) by djp. It is intended to be a place to showcase various task extensions, sub-projects and taskwarrior spin-offs.
+Taskextras is also an opportunity to sandbox some website code, that might meke it to taskwarrior.org, but that might otherwise clutter up the discussion of core development. 
+
+=== About This Website ===
+This site is made of [[https://github.com/vimwiki/vimwiki|vimwiki]] + [[http://blog.zzbalabala.com/blog/vimwikiblog_en.html|vimwikiblog]] + [[http://nginx.org/|nginx]]. It is intended to be a reusable, taskwarrior-centric personal wiki. Development files will be shared at [[https://github.com/linuxcaffe/TWeb|Github]] 
+
+=== About Me, djp ===
+Y'know, just a guy, [[http://site3.ca|makes]] [[http://www.youtube.com/watch?v=8FUtHjv3rz4&list=UUDsgMWEI2gGod42SQTjOLxQ&feature=share&index=1|all]] [[http://vimeo.com/80418317|sorts]] of [[http://www.youtube.com/watch?v=F1l63r7Fd0A&feature=share&list=UUDsgMWEI2gGod42SQTjOLxQ|stuff]], genius at some things, total dufus at others..

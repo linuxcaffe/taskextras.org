@@ -1,0 +1,28 @@
+%title taskextras index
+=== Taskextras.org ===
+_a site for Taskwarrior-related projects and resources_
+*2014-03-05 22:52:31*
+_site_
+`front`
+_*caution*, this site is experimental!!_ ..keep your expectations low!
+----
+=== Resources ===
+* [[boards|archives]] from (the old) taskwarrior.org
+=== Extras ===
+The master-list of known extras (task-related projects, not core) is http://taskwarrior.org/tools/
+- taskopen
+- vit
+- vim-taskwarrior
+- tchart
+- bugwarrior
+- taskw
+- inthe.am
+----
+_experimental table formatting_ needs table-striped css
+| project  | source | tags        | image |
+| vit      |        | iface, perl |       |
+| inthe.am | github | iface, js   |       |
+| taskopen | github | ext, perl   |       |
+
+
+[[site]] pages
