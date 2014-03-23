@@ -7,4 +7,4 @@ _site
 
 links to site pages, real or imagined.
 
-[[About]] - Blog - [[outline|scratchpad]] 
+[[About]] - Blog - [[outline|scratchpad]] - [[README.md]] 
