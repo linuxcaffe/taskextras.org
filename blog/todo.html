@@ -11,11 +11,9 @@
         <div class="container">
           <a class="brand" href="index.html">Taskextras.org</a>
           <ul class="nav">
-<!--
             <li><a href="Archive.html">Archive</a></li>
             <li><a href="Categories.html">Categories</a></li>
             <li><a href="Tags.html">Tags</a></li>
--->
             <li><a href="Links.html">Links</a></li>
             <li><a href="About.html">About</a></li>
           </ul>
