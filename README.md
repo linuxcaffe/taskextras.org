@@ -7,7 +7,7 @@ the sourcefiles, configurations and content that make up taskextras.org
 
 Taskextras is kind of a support-site, or a fan-site that revolves around taskwarrior.org. The idea is that while the good developers at taskwarrior stay focused on core issues and features, taskextras can look at many of the other, peripheral projects, that make up the taskwarrior ecosystem. Taskextras can also be a site for website-development code, related to taskwarrior. 
 
-## why?
+## Why?
 
 ..well ..for fun, mostly, and to help improve the awareness of all the amazing work independent developers have produced. It is also an opportunity to develop an easy-to-deploy personal wiki/blog, that is uniquely suited to taskwarrior users. 
 
