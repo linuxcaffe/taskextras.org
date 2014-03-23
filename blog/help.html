@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style0.css">
+<title>help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">Taskextras.org</a>
+          <ul class="nav">
+<!--
+            <li><a href="Archive.html">Archive</a></li>
+            <li><a href="Categories.html">Categories</a></li>
+            <li><a href="Tags.html">Tags</a></li>
+-->
+            <li><a href="Links.html">Links</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+<!--          <form method="get" target="_blank" action="http://www.google.com/search">
+            <p>
+            <input name="q" type="text">
+            <input name="btnG" value="Search" type="submit">
+            <input name="ie" value="UTF-8" type="hidden">
+            <input name="oe" value="UTF-8" type="hidden">
+            <input name="hl" value="zh-CN" type="hidden">
+            <input name="domains" value="taskextras.org" type="hidden">
+            <input name="sitesearch" value="taskextras.org" type="hidden">
+            </p>
+          </form>
+-->
+        </div>
+      </div>
+</div>
+<div class="content">
+<div class="span8">
+    
+<div id="vimwikiblog document"><h2 id="vimwikiblog document">vimwikiblog document</h2></div>
+<p>
+<div id="vimwikiblog document-2013-12-04 17:57:43"></div><strong id="2013-12-04 17:57:43">2013-12-04 17:57:43</strong>
+<em>linux</em>
+<code>vimwiki</code>
+<hr />
+%toc
+</p>
+<div id="vimwikiblog document-Introduction"><h3 id="Introduction">Introduction</h3></div>
+<p>
+Vimwiki can transfer wiki files to html files. Use template, vimwiki can support commments and code highlight. If we do a little change to the html files, it can be used as a static blog.
+</p>
+<ul>
+<li>
+vimwikiblog project: <a href="https:&#47;&#47;github.com&#47;chrisju&#47;vimwikiblog">https://github.com/chrisju/vimwikiblog</a>
+
+<li>
+example: <a href="http:&#47;&#47;blog.zzbalabala.com">http://blog.zzbalabala.com</a>
+
+</ul>
+<div id="vimwikiblog document-What does it do"><h3 id="What does it do">What does it do</h3></div>
+<ul>
+<li>
+Generate pages of Archive,Categories,Tags
+
+<li>
+Deal external links
+
+<li>
+Add prev page and next page
+
+<li>
+Auto update to blog server
+
+</ul>
+<div id="vimwikiblog document-User guide"><h3 id="User guide">User guide</h3></div>
+<ol>
+<li>
+Download project from <a href="https:&#47;&#47;github.com&#47;chrisju&#47;vimwikiblog">https://github.com/chrisju/vimwikiblog</a>
+
+<li>
+Test
+
+<ol>
+<li>
+configure .vimrc, add this:
+<pre class="brush: bash">
+let g:vimwiki_list = [{
+\ 'path': '/path/to/vimwikiblog/wiki/',
+\ 'path_html': '/path/to/vimwikiblog/wiki_html/',
+\ 'template_path': '/path/to/vimwikiblog/config/',
+\ 'template_default': 'zz',
+\ 'template_ext': '.tpl',
+\ 'css_name': 'style0.css',
+\ 'auto_export': 1,}]
+</pre>
+
+<li>
+<code>cd /path/to/vimwikiblog/</code>
+
+<li>
+<code>vim wiki/help.wiki</code>, run <code>:VimwikiAll2HTML</code>
+
+<li>
+<code>python3 tools/vimwikiblog.py -c config/config.json</code>
+
+<li>
+view files in <code>/path/to/vimwikiblog/blog/</code> with browser
+
+</ol>
+<li>
+~/.vimrc setting<br>
+  Add this block to ~/.vimrc:
+<pre class="brush: bash">
+:map &lt;F2&gt; &lt;ESC&gt;gg:read !echo -e "*`date '+\%Y-\%m-\%d \%H:\%M:\%S'`*\n_cat_\n\`tag\`\n----\n\%toc"&lt;CR
+</pre>
+  You'd better set the time,category,tags for every page by using F2 in .wiki:<br>
+
+<ul>
+<li>
+There must one time string (between '*')
+
+<li>
+Category can be one or zero (between '_')
+
+<li>
+Can add any number of tags (between '`')
+
+<li>
+Must keep <code>----</code>
+
+<li>
+<code>%toc</code> can be removed
+
+</ul>
+<li>
+vimwiki setting<br>
+
+<ul>
+<li>
+Refer to <code>vimwikiblog/config/vimrc</code>, you should set template and css
+
+<li>
+Template example:<code>vimwikiblog/config/zz.tpl</code>, <div id="vimwikiblog document-User guide-blog name and search domain must be changed"></div><strong id="blog name and search domain must be changed">blog name and search domain must be changed</strong>
+
+<li>
+Css example:<code>vimwikiblog/site/css/style0.css</code>
+
+<li>
+Deafult template has [<a href="http:&#47;&#47;disqus.com&#47;">http://disqus.com/</a> disqus comment] and [<a href="https:&#47;&#47;www.google.com&#47;analytics" target="_blank">https://www.google.com/analytics</a> Google analytics]. You must modify <code>vimwikiblog/site/js/disqus.js</code> and <code>vimwikiblog/site/js/ga,js</code> to set your own id
+
+</ul>
+<li>
+vimwikiblog config<br>
+
+<ol>
+<li>
+Configure <code>vimwikiblog/config/config.json</code>
+
+<ol>
+<li>
+For any path full path is recommended
+
+<li>
+Set basic/gentpl. gentpl is for page Archive.html/Tags.html and so on. Example:<code>config/gen.tpl</code>. It is like vimwiki's template. <div id="vimwikiblog document-User guide-blog name and search domain must be changed"></div><strong id="blog name and search domain must be changed">blog name and search domain must be changed</strong>
+
+<li>
+Set <code>basic/wiki</code> to your vimwiki dir
+
+<li>
+Set <code>basic/html</code> to your vimwiki output dir
+
+<li>
+Set <code>basic/blog</code> to your blog dir. And should copy <code>site/css/style0.css</code> to the dir. <code>vimwikiblog/blog</code> is recommended
+
+<li>
+Set <code>basic/blog_tmp</code> to a dir not exist. Later you may need update the files under it to blog server manually
+
+<li>
+Set <code>upload</code> section if need auto update to remote servers. <div id="vimwikiblog document-User guide-now only support ftp"></div><strong id="now only support ftp">now only support ftp</strong>
+
+</ol>
+<li>
+Copy <code>vimwikiblog/config/config.json</code> to <code>~/.config/vimwikiblog/</code>
+
+</ol>
+<li>
+use
+
+<ol>
+<li>
+<code>cd vimwikiblog/</code>
+
+<li>
+<code>python3 tools/vimwikiblog.py</code>
+
+<li>
+copy <code>site/</code> and <code>blog/</code> dir to your blog server
+
+</ol>
+</ol>
+
+</div>
+
+    <hr style="clear:both">
+    <div class="pagination" style="float:left;">
+      <ul>
+        <li class="prev"><a href="test2.html" title="上一篇: svn">&larr; svn</a></li>
+        <li><a href="Archive.html">Archive</a></li>
+        
+      </ul>
+    </div>
+    <hr>
+<script type="text/javascript" src="../site/js/disqus.js"></script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank">comments powered by Disqus.</a></noscript>
+</div>
+<script type="text/javascript" src="../site/js/ga.js"></script>
+<script type="text/javascript" src="../site/sh/js/jquery-1.4.2.js"></script>
+<!-- SyntaxHighlighter -->
+<script type="text/javascript" src="../site/sh/src/shCore.js"></script>
+<script type="text/javascript" src="../site/sh/src/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="../site/sh/styles/shCore.css" />
+<link type="text/css" rel="Stylesheet" href="../site/sh/styles/shCoreDefault.css" />
+<link type="text/css" rel="Stylesheet" href="../site/sh/styles/shThemeDefault.css" />
+<script type="text/javascript" src="../site/js/sh.js"></script>
+<footer>
+        <p>© taskextras.tpl - 2014 powered by <a href="https://github.com/chrisju/vimwikiblog" target="_blank">vimwikiblog</a>
+        <a class="pos_right" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+        </p>
+</footer>
+</body>
+</html>
