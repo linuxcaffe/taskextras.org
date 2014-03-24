@@ -5,7 +5,7 @@ _the sourcefiles, configurations and content that make up taskextras.org_
 
 Read more in the wiki/About.wiki file, and see some (the beginngs of) installation notes in config/notes.md
 
-![taskextras.org screenshot](./images/screenshot.png "current screenshot of taskextras.org")
+![taskextras.org screenshot](https://raw.githubusercontent.com/linuxcaffe/taskextras.org/master/blog/images/screenshot.png "current screenshot of taskextras.org")
 
 ## What?
 
