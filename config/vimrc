@@ -1,3 +1,29 @@
+" These are the related configurations are actually in use, in ~/.vimrc, for
+" taskextras.org
+"
+
+ vimwiki options
+ "
+ let g:vimwiki_list = [{
+ \ 'path': '~/.vim/wiki/',
+ \ 'path_html': '~/.vim/blog/',
+ \ 'template_path': '~/.vim/config/',
+ \ 'template_default': 'taskextras',
+ \ 'template_ext': '.tpl',
+ \ 'css_name': 'style0.css',
+ \ 'auto_toc': 1,
+ \ 'auto_export': 1,}]
+
+ :map <F2> <ESC>gg:read !echo -e "*`date '+\%Y-\%m-\%d
+ \%H:\%M:\%S'`*\n_cat_\n\`tag\`\n----\n\%toc"<CR>
+ :map <S-t> <Plug>VimwikiToggleListItem
+ let g:vimwiki_use_mouse = 1
+ let g:vimwiki_camel_case = 0
+ 
+"
+"=============================================================
+" These are original configuration suggestions from vimwikiblog
+"
 "快捷插入文章信息
 "Quick insertion Article 
 ":map <F2> <ESC>gg:read !date '+\%Y-\%m-\%d \%H:\%M:\%S'<CR>
