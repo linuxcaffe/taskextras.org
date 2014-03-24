@@ -1,7 +1,8 @@
 taskextras.org
 ==============
 
-the sourcefiles, configurations and content that make up taskextras.org
+_the sourcefiles, configurations and content that make up taskextras.org_
+Read more in the wiki/About.wiki file, and see some more installation notes in config/notes.md
 
 ## What?
 
