@@ -1,0 +1,34 @@
+== vimwiki-tasks
+*2014-03-24 12:46:39*
+_vimwiki-tasks_
+`vim`
+----
+%toc
+
+Vimwiki-tasks is a taskwarrior accessory that extends task-listing to vim and vimwiki.
+
+This is a test of the ':InsertTasks < filter >' command, that when used within a vimwiki file will generate a task-list of < filter >.
+
+Here's a test;
+
+
+%% TaskList: project:tw
+* [ ] learn sinatra templating +research #b8526e81-7229-47f7-9d8e-d1b5cb96b800
+* [ ] test taskweb +test #a59f6dc1-10b2-4b31-a40e-53103b4aa0c9
+* [ ] test #5caf4c4a-3e2f-4054-a192-c0db7a0e6d9c
+* [ ] this could be a template +test #6114d4a5-7e47-4ee9-b5e4-057420d9f05d
+* [ ] test recursive behavior #d48c6413-ec1f-4cc8-b329-a009231395be
+* [ ] test newlines +test #e45920a4-415e-4c05-97c5-73a9780e4e25
+* [ ] more taskopen experiments #43ca6a66-912d-42af-92d5-41094f530c1f
+* [ ] upcoming day names in due column option +feature #86714ec5-6fdd-5f4b-04fb-e6879a1f85b0
+* [ ] taskopen experiments continued +feature #5605b935-3cec-d4ac-6194-594a7f3922d7
+* [ ] lazytagging for special characters +feature +test #41f58b37-4379-3ad8-bb53-780f92e61796
+* [X] command task copy +feature #8b33552b-7036-d3b1-2e3a-17aea20b17da
+* [ ] feature, task any command regex, searches all fields for term +feature #0faabea9-0c89-3fb4-aa27-d278d2f6b55b
+* [ ] tab completion not working +bug #7afc2cb7-3903-6a74-79d9-ac3061281f88
+* [ ] taskrc color priority not working +bug +test #49d17f97-fc72-e323-2185-16454224906d
+* [ ] color.calendar colors default to general colors +feature #7e23c1f2-d824-afd9-2eb6-7c5a73a74d8c
+* [ ] feature: special tags +test #bdc351af-0380-434e-0204-7fef92bde419
+* [X] feature: color.foo=invert #2025489a-67d8-a477-c1cb-f0ff500ff681
+* [X] create interactive 16 color scheme #23c706ff-b2fc-eeaf-dda1-1cdf458d59a8
+* [X] create cli 256 color scheme #322f4da8-f53f-1cfe-1f2b-441ce878901c
