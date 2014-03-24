@@ -18,8 +18,10 @@ The master-list of known extras (task-related projects, not core) is http://task
 - taskw
 - inthe.am
 ----
-_experimental table formatting_ needs table-striped css
+_experimental table formatting_ (badly needs table-striped css)
+
 | project  | source | tags        | image |
+|----------|--------|-------------|-------|
 | vit      |        | iface, perl |       |
 | inthe.am | github | iface, js   |       |
 | taskopen | github | ext, perl   |       |

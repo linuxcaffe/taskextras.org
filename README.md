@@ -2,7 +2,10 @@ taskextras.org
 ==============
 
 _the sourcefiles, configurations and content that make up taskextras.org_
-Read more in the wiki/About.wiki file, and see some more installation notes in config/notes.md
+
+Read more in the wiki/About.wiki file, and see some (the beginngs of) installation notes in config/notes.md
+
+![taskextras.org screenshot](./images/screenshot.png "current screenshot of taskextras.org")
 
 ## What?
 
