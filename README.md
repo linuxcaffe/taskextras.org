@@ -27,7 +27,10 @@ The website generation process is roughly as follows:
 
 3) VimwikiBlog (an extension of vimwiki) enhances the site with templates, nav elements, generates Archive, Catagories, Tags html pages.
 
-4) git push to https://github.com/linuxcaffe/taskextras.org
+4) rsync blog/ to server. NOTE: there is content in blog/ that is not in this git repo, namely the (old) taskwarrior.org board and wiki archives. Those will be made available throught the site, but are too big, stupid and static to include here.
 
-5) rsync blog/ to server. NOTE: there is content in blog/ that is not in this git repo, namely the (old) taskwarrior.org board and wiki archives. Those will be made available throught the site, but are too big, stupid and static to include here. 
+5) cutycapt screenshot of taskextras.org/index.html
+
+6) git push to https://github.com/linuxcaffe/taskextras.org
+
 
