@@ -11,7 +11,8 @@ As a major contributor to those boards, I'm aware (guilty) of some signal and a 
 
 
 ==== Forums ====
-- [[./projects/taskwarrior/boards/1%3fpage%3d1%26per_page%3d100|User Support and Tips]] - [[boards/1/topics/|files]]
+- {{./projects/taskwarrior/boards1%3fpage%3d1%26per_page%3d100|User Support and Tips}}
+- [[http://taskextras.org/projects/taskwarrior/boards/1%3fpage%3d1%26per_page%3d100|User Support and Tips]] - [[boards/1/topics/|files]]
 - [[boards/4/|Taskwarrior Website and Promotion]] - [[boards/4/topics/|files]]
 - [[boards/6/|Development and Feature Ideas]] - [[boards/6/topics/|files]]
 - [[boards/8/|Time Management and "the Competition"]] - [[boards/8/topics/|files]]

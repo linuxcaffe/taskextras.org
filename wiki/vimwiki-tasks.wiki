@@ -1,4 +1,4 @@
-== vimwiki-tasks
+== vimwiki-tasks ==
 *2014-03-24 12:46:39*
 _vimwiki-tasks_
 `vim`
@@ -6,8 +6,9 @@ _vimwiki-tasks_
 %toc
 
 Vimwiki-tasks is a taskwarrior accessory that extends task-listing to vim and vimwiki.
+The project page is here: https://github.com/teranex/vimwiki-tasks
 
-This is a test of the ':InsertTasks < filter >' command, that when used within a vimwiki file will generate a task-list of < filter >.
+This is a test of the ':InsertTasks < filter >' command, that when used within a vimwiki file will generate a task-list of < filter >. Note that this feature is presently almost undocumented.
 
 Here's a test;
 
